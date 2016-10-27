@@ -1,5 +1,10 @@
 TestSite::Application.routes.draw do
-  resources :posts
 
-  get '/all', :to => 'posts#index', :as => 'all'
+  get "pets/delete"
+
+  root :to => 'welcome#index'
+  resources :posts
+  resources :pets
+# get '/all', :to => 'posts#index', :as => 'all'
 end
+

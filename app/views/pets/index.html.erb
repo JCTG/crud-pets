@@ -1,0 +1,24 @@
+<h1>Lista de mascotas</h1>
+
+<table border="1">
+  <thead>
+  <tr>
+    <th>Nombre:</th>
+    <th>Edad:</th>
+  </tr>
+  </thead>
+
+  <% @pets.each do |pet| %>
+      <tr>
+        <td><%= link_to pet.name, pet %></td>
+        <td>
+          <%= link_to 'Edit', edit_pet_path(pet.id) %>
+
+          <%= link_to 'destroy', pet, :method => :delete %>
+
+        </td>
+      </tr>
+  <% end -%>
+</table>
+
+<p><%= link_to 'New Pet', new_pet_path %></p>

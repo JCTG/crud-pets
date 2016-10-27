@@ -1,0 +1,6 @@
+<%= form_for @pet do |form| %>
+    <%= form.text_field :name %></br>
+    <%= "Name #{@pet.errors[:name]}" if @pet.errors[:name] %></br>
+    <%= form.text_field :age %></br>
+    <%= form.submit %>
+<% end -%>
