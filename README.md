@@ -5,3 +5,6 @@ This app is used to walk new developers through the basic Rails plumbing, MVC co
 == Setup
 
 Copy the `config/database.yml.example` to `config/database.yml`
+
+
+Se agrego CI.
