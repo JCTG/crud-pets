@@ -9,3 +9,4 @@ Copy the `config/database.yml.example` to `config/database.yml`
 
 Se agrego Integracion continua (CI).
 
+* --
