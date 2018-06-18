@@ -7,6 +7,6 @@ This app is used to walk new developers through the basic Rails plumbing, MVC co
 Copy the `config/database.yml.example` to `config/database.yml`
 
 
-Se agrego Integracion continua (CI) 
+Se agrego Integracion continua (CI).
 
 * ---
